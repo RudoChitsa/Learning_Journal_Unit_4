@@ -1,0 +1,80 @@
+PART 1
+
+def hypotenuse(a2, b2): 
+
+#hypotenuse function has 2 arguments for a2 and b2
+
+# hypotenuse is calculated as c = √(a2 + b2)
+
+ return (a2**2+b2**2)**(1/2)
+
+ print("exercise 1, triangle with 3 and 4, hypotenuse is:",hypotenuse(3,4))
+
+ print("Answer is 5")
+
+print("Exercise 2, triangle with  8 and 6, hypotenuse is:",hypotenuse(8, 6))
+
+print("Answer is 10") 
+
+print("Exercise 3, triangle with 9 and 12, hypotenuse is:",hypotenuse(9, 12))
+
+print("Answer is 15")
+
+
+
+Output
+
+Exercise 1, triangle with  3 and 4, hypotenuse is: 5.0
+
+Answer is 5
+
+Exercise 2, triangle with  8 and 6, hypotenuse is: 10.0
+
+Answer is 10
+
+Exercise 3, triangle with 9 and 12, hypotenuse is: 15.0
+
+Answer is 15
+
+
+PART 2
+
+
+
+def area(a, b): 
+
+#area formula is a*b
+
+#area for rectangle and square
+
+ return (a*b)
+
+ print("exercise 1, rectangle with 3 and 4, area is:", area(3, 4))
+
+ print("Answer is 12")
+
+print("Exercise 2,  square with  8 and 5, area is:", area(8, 5))
+
+print("Answer is 40") 
+
+print("Exercise 3, rectangle with 5 and 10, area is:", area(5, 10))
+
+print("Answer is 50")
+
+
+
+Output
+
+Exercise 1, rectangle with  3 and 4, area is: 12.0
+
+Answer is 12
+
+Exercise 2, square with  8 and 5, area is: 40.0
+
+Answer is 40
+
+Exercise 3, rectangle with 5 and 10, area is: 50.0
+
+Answer is 50
+
+
